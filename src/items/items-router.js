@@ -26,8 +26,8 @@ itemsRouter
       .catch(next);
   })
   .post(jsonParser, (req, res, next) => {
-    const { pace, user_id, content } = req.body;
-    const newItem = { pace, user_id, content };
+    const { date, pace, user_id, content } = req.body;
+    const newItem = { date, pace, user_id, content };
 
     for (const [key, value] of Object.entries(newItem)) {
       if (value == null) {
@@ -70,8 +70,8 @@ itemsRouter
       .catch(next);
   })
   .patch(jsonParser, (req, res, next) => {
-    const { pace, user_id, content } = req.body;
-    const itemToUpdate = { pace, user_id, content };
+    const { date, pace, user_id, content } = req.body;
+    const itemToUpdate = { date, pace, user_id, content };
 
     const numberOfValues = Object.values(itemToUpdate).filter(Boolean).length;
     if (numberOfValues === 0)
