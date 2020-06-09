@@ -22,7 +22,7 @@ This api database holds information for the client side of this application.  Th
 | updateItem(patch) | /api/items/:id | update item information |
 
 
-![ScreenShot](screenshot.png)
+![ScreenShot](screenshot2.png)
 
 
 *Technologies Used: PostgresSQL, SQL, Node, Javascript, Express, Mocha and Chai* 
