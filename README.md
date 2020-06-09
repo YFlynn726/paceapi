@@ -1,26 +1,28 @@
-# Express Boilerplate!
+# App Name: Shu-game
+Live Link: https://shugame-app.now.sh/
 
-This is a boilerplate project used for starting new projects!
+This api database holds information for the client side of this application.  The database holds information such as shoes, users, and wishlist items.  This database consist of three tables: users, shoes, and wishlist that all have a relationship with one another though user_id.  
 
-## Set up
+## API Documentation:
 
-Complete the following steps to start a new project (NEW-PROJECT-NAME):
+### usersRouter
+| Method | HTTP request | Description |
+|--------|:------------:|------------:|
+| getAllUsers(get) | /api/users | Gets all the users |
+| insertUser(post) | /api/users | Create a new user |
+| getById(get) | /api/users/:id | Get a user by the id |
 
-1. Clone this repository to your local machine `git clone BOILERPLATE-URL NEW-PROJECTS-NAME`
-2. `cd` into the cloned repository
-3. Make a fresh start of the git history for this project with `rm -rf .git && git init`
-4. Install the node dependencies `npm install`
-5. Move the example Environment file to `.env` that will be ignored by git and read by the express server `mv example.env .env`
-6. Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "express-boilerplate",`
+### itemsRouter
+| Method | HTTP request | Description |
+|--------|:------------:|------------:|
+| getAllItems(get) | /api/items | Gets all the items |
+| insertItem(post) | /api/items | Create/Add an item |
+| getById(get) | /api/items/:id | Get a item by the id |
+| deleteItem(delete) | /api/items/:id | Delete item |
+| updateItem(patch) | /api/items/:id | update item information |
 
-## Scripts
 
-Start the application `npm start`
+![ScreenShot](screenshot.png)
 
-Start nodemon for the application `npm run dev`
 
-Run the tests `npm test`
-
-## Deploying
-
-When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's master branch.
+*Technologies Used: PostgresSQL, SQL, Node, Javascript, Express, Mocha and Chai* 
