@@ -1,7 +1,7 @@
-# App Name: Shu-game
-Live Link: https://shugame-app.now.sh/
+# App Name: Pace!
+Live Link: https://paceclient.now.sh/
 
-This api database holds information for the client side of this application.  The database holds information such as shoes, users, and wishlist items.  This database consist of three tables: users, shoes, and wishlist that all have a relationship with one another though user_id.  
+This api database holds information for the client side of this application.  The database holds information such as pace records(items), and a list of users.  This database consist of two tables: users and items that all have a relationship with one another through user_id.  
 
 ## API Documentation:
 
