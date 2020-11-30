@@ -1,10 +1,9 @@
 # App Name: Pace!
 Live Link: https://paceclient.now.sh/
 
-This app helps users visually see their run trends and see their progress if they are training or if they just want to see how they are performing. I don't know about you but I would like to know how I've progressed.  The user may leave notes about their experience of that particular run and provide details like their pace time.  Try it out, it's a fun one!
+This app helps users visually see their run trends and see their progress if they are training or if they just want to see how they are performing. I don't know about you but I would like to know how I've progressed.  The user may leave notes about their experience of that particular run and provide details like their pace time.  Try it out, it's a fun one or provide feedback if you'd like. 
 
 Designed a run tracking app using React and node.js using real life experiences and feedback of known runners. 
-Tech:  React, CSS, JS, Jest
 
 
 ## API Documentation:
@@ -29,4 +28,4 @@ Tech:  React, CSS, JS, Jest
 ![ScreenShot](screenshot2.png)
 
 
-*Technologies Used: PostgresSQL, SQL, Node, Javascript, Express, Mocha and Chai* 
+*Technologies Used: React, CSS, PostgresSQL, SQL, Node, Javascript, Express, Mocha and Chai* 
